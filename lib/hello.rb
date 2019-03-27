@@ -6,14 +6,14 @@ def hello_t(names_array)
     end
 end
 
-# call your method here!
+hello_t(names_array)
 
 
-def reverse_each_word(sentence1)
-  new_sentence = []
-  new_sentence = sentence1.split(" ")
-      brand_new_sentence = new_sentence.collect do |word|
-          word.reverse
-        end
-        brand_new_sentence.join(" ")
-end
+# def reverse_each_word(sentence1)
+#   new_sentence = []
+#   new_sentence = sentence1.split(" ")
+#       brand_new_sentence = new_sentence.collect do |word|
+#           word.reverse
+#         end
+#         brand_new_sentence.join(" ")
+# end
