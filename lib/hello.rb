@@ -1,12 +1,9 @@
 def hello_t(array)
     array.each do |name|
-    if name.start_with?("T")
-        puts "Hi, #{name}"
-    end
-    if name.start_with?("J")
+      if name.start_with?("T", "J")
         puts "Hi, #{name}"
       end
-  end
+    end
 end
 
 # call your method here!
