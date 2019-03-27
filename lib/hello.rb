@@ -6,7 +6,6 @@ def hello_t(names_array)
     end
 end
 
-hello_t(names_array)
 
 
 # def reverse_each_word(sentence1)
