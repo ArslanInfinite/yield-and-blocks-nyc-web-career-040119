@@ -5,6 +5,7 @@ def hello_t(array)
     end
     if name.start_with?("J")
         puts "Hi, #{name}"
+      end
   end
 end
 
